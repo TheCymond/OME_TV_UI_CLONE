@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>OME TV</title>
+  </head>
+  <body>
+    <div class="videos">
+      <div class="video-me">
+        <video src="./Media/noise.mp4" muted autoplay loop></video>
+        <img class="video-me-logo" src="./Media/logo.svg" alt="logo" />
+        <div class="buttons-container">
+          <a href="#"
+            ><img class="googleplay" src="./Media/google.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img class="appstore" src="./Media/apple.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="video-user">
+        <video src="./Media/loading.mp4" muted autoplay loop></video>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="buttons">
+        <div class="btn btn-start" id="btnStart">Start</div>
+        <div class="btn btn-stop btn-stop-disabled">Stop</div>
+        <div class="btn btn-country">Country: all</div>
+        <div class="btn btn-sex">A am: 👨</div>
+      </div>
+      <div class="chat-container">
+        <div class="chat">Hello</div>
+        <input
+          class="send-chat"
+          type="text"
+          placeholder="type your message here and press Enter"
+        />
+      </div>
+    </div>
+  </body>
+</html>
